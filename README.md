@@ -56,11 +56,3 @@ To integrate this agent with WhatsApp for a production environment, I would foll
     - Message arrives $\rightarrow$ Fetch User State $\rightarrow$ Invoke LangGraph $\rightarrow$ Update State in DB $\rightarrow$ Send response back via WhatsApp API.
 
 ---
-
-## Deliverables Checklist
-- [x] Agent logic (`agent.py`, `main.py`)
-- [x] RAG pipeline (using `kb.md` and FAISS)
-- [x] Intent detection (Structured Pydantic Model)
-- [x] Tool execution (`mock_lead_capture`)
-- [x] `requirements.txt`
-- [x] `README.md` (Architecture + WhatsApp questions)
