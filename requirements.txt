@@ -1,0 +1,8 @@
+langchain
+langgraph
+langchain-google-genai
+langchain-community
+faiss-cpu
+pydantic>=2.0.0
+langchain-text-splitters
+python-dotenv
